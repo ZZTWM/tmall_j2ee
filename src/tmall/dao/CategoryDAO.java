@@ -30,7 +30,7 @@ public class CategoryDAO {
 			}
 			
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
@@ -45,7 +45,7 @@ public class CategoryDAO {
 			String sql = "delete from category where id = " + id;
 			s.execute(sql);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
@@ -62,7 +62,7 @@ public class CategoryDAO {
 			ps.setInt(2, bean.getId());
 			ps.execute();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
@@ -85,7 +85,7 @@ public class CategoryDAO {
 				bean.setId(id);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		return bean;
@@ -114,7 +114,7 @@ public class CategoryDAO {
 				beans.add(bean);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
@@ -144,7 +144,7 @@ public class CategoryDAO {
 				total = rs.getInt(1);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
