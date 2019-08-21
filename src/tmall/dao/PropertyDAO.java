@@ -86,7 +86,7 @@ public class PropertyDAO {
 			e.printStackTrace();
 		}
 	}
-	
+	 
 	/**
 	 * 根据id获取
 	 * @param id
