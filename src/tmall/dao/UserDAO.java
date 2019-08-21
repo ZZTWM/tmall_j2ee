@@ -13,7 +13,7 @@ import tmall.util.DBUtil;
 
 public class UserDAO {
 	/**
-	 * 获取总数
+	 * 获取总数 
 	 * @return
 	 */
 	public int getTotal(){
