@@ -67,7 +67,7 @@ public class CategoryDAO {
 		}
 	}
 	
-	/**
+	/** 
 	 * 根据id获取
 	 * @param id
 	 * @return
